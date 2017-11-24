@@ -1,0 +1,134 @@
+body,
+html {
+	min-height: 100%
+}
+body {
+	background-image: url("wallhaven-355090.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+	padding: 0;
+    font-family : Tahoma, Arial;
+}
+	#encadré {
+		margin: 50px 500px;
+		padding: 2%;
+		position: center
+    	width: 100%;
+    	height: 100%;
+    	border-style:groove;
+    	border-width:10px;
+    	border-color :orange;
+    	background-image: url("Fond-page-2-CMS.png");
+    	background-repeat: repeat;
+    	background-size: 100% 100%;
+	}
+	#headleft {
+		float : left;
+		display : inline-block;
+		width :75%;
+	}
+
+	#photo {
+		float: :left;
+		display : inline-block;
+		width: 160px;
+		
+
+	}
+
+	#photo img{
+		width: 100%;
+		border:5px double gold;
+
+
+	}
+	#tete {
+		display : inline-block;
+	}
+
+	#Compétences {
+		display : inline-block;
+	}
+
+	#Développement {
+		float: left;
+		display : inline-block;
+		margin : 0px 100px 0px 50px;
+	}
+
+	#Réseaux {
+		float: :left;
+		display : inline-block;
+		
+		
+	}
+
+	h1{
+		color : gray;
+		text-decoration : underline;
+		font-size : 24pt;
+		font-weight : bold;
+		margin : 50px 0px 50px 0px;
+
+	}
+
+	h2{
+		margin : 0px 0px 0px 0px;
+		color : black;
+		font-size : 22pt;
+		font-weight : bold;
+	}
+	h3{
+		color : black;
+		font-size : 18pt;
+		font-weight : bold;
+	}
+	h5{
+		color : black;
+		font-size : 15pt;
+		font-weight : bold;
+		margin : 0px 0px 0px 0px;
+	}
+	#Texte{
+
+		font-size : 12pt;
+		font-weight : bold;
+	}
+	
+	li{
+		list-style-type: none;
+	}
+
+	li::before {
+  		content: "• ";
+  		color: orange; 
+	}
+	#admail{
+		margin : 0px 40px;
+	}
+	#coordonées {
+		font-weight : bold;
+	}
+
+	#coordonées li{
+		color : black;
+	}
+	#coordonées li::before {
+  		content: "";
+	}
+
+	a{
+		color: #000080;
+	}
+	div.trait {
+	border-bottom:3px solid black;
+}
+
+	
+
+ 
+
+
+
+}
